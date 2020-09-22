@@ -26,7 +26,7 @@ export default class VDOM extends React.PureComponent<Partial<Props>> {
     mediaType,
     onVDOMEvent: () => {
       console.log(
-        "This app doesn't support vdom events ☹️ See @nteract/transform-vdom for more info: https://github.com/nteract/outputs/edit/master/packages/transform-vdom/src/index.tsx"
+        "This app doesn't support vdom events ☹️ See @nteract/transform-vdom for more info: https://github.com/nteract/outputs/edit/master/packages/transform-vdom"
       );
     }
   };
